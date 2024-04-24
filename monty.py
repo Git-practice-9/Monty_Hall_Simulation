@@ -5,3 +5,5 @@ def setup_doors():
     random.shuffle(doors)
     return doors
 
+def select_door():
+    return random.choice(range(1,3+1))
